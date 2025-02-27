@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/aws/aws-sdk-go-v2/service/resiliencehub"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client/mocks"
 	"github.com/cloudquery/plugin-sdk/faker"
 	"github.com/golang/mock/gomock"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client/mocks"
 )
 
 func buildAppVersions(t *testing.T, mock *mocks.MockResiliencehubClient) {

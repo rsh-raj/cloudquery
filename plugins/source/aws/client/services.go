@@ -101,8 +101,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/wafv2"
 	"github.com/aws/aws-sdk-go-v2/service/workspaces"
 	"github.com/aws/aws-sdk-go-v2/service/xray"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client/models/s3manager"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client/services"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client/models/s3manager"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client/services"
 )
 
 func initServices(region string, c aws.Config) Services {

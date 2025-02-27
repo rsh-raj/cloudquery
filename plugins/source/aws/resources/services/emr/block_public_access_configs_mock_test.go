@@ -7,9 +7,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/emr"
 	"github.com/aws/aws-sdk-go-v2/service/emr/types"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client/mocks"
 	"github.com/golang/mock/gomock"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client/mocks"
 )
 
 func buildEMRClient(t *testing.T, ctrl *gomock.Controller) client.Services {

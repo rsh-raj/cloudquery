@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/aws/aws-sdk-go-v2/service/databasemigrationservice"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/resources/services/dms/models"
 	"github.com/cloudquery/plugin-sdk/schema"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/resources/services/dms/models"
 )
 
 func fetchDmsReplicationInstances(ctx context.Context, meta schema.ClientMeta, _ *schema.Resource, res chan<- any) error {

@@ -1,10 +1,10 @@
 package autoscaling
 
 import (
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/resources/services/autoscaling/models"
 	"github.com/cloudquery/plugin-sdk/schema"
 	"github.com/cloudquery/plugin-sdk/transformers"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/resources/services/autoscaling/models"
 )
 
 func Groups() *schema.Table {

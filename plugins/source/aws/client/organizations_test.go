@@ -6,8 +6,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client/mocks"
 	"github.com/golang/mock/gomock"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client/mocks"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/organizations"

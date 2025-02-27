@@ -8,9 +8,9 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/resources/services/s3/models"
 	"github.com/cloudquery/plugin-sdk/schema"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/resources/services/s3/models"
 )
 
 // fetchS3BucketsPoolSize describes the amount of go routines that resolve the S3 buckets

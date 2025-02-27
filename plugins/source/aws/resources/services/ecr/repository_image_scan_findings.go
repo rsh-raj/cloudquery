@@ -1,10 +1,10 @@
 package ecr
 
 import (
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/resources/services/ecr/models"
 	"github.com/cloudquery/plugin-sdk/schema"
 	"github.com/cloudquery/plugin-sdk/transformers"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/resources/services/ecr/models"
 )
 
 func RepositoryImageScanFindings() *schema.Table {

@@ -1,4 +1,4 @@
-module github.com/cloudquery/cloudquery/plugins/source/aws/views/athena
+module github.com/rsh-raj/cloudquery/plugins/source/aws/views/athena
 
 go 1.19
 

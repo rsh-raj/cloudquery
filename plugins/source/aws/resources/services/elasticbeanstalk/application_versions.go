@@ -2,9 +2,9 @@ package elasticbeanstalk
 
 import (
 	"github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk/types"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
 	"github.com/cloudquery/plugin-sdk/schema"
 	"github.com/cloudquery/plugin-sdk/transformers"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
 )
 
 func ApplicationVersions() *schema.Table {

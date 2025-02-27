@@ -2,9 +2,9 @@ package cloudformation
 
 import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/types"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
 	"github.com/cloudquery/plugin-sdk/schema"
 	"github.com/cloudquery/plugin-sdk/transformers"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
 )
 
 func stackResources() *schema.Table {

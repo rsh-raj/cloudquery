@@ -3,8 +3,8 @@ package ses
 import (
 	"context"
 
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
 	"github.com/cloudquery/plugin-sdk/schema"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
 )
 
 // Supported regions based on https://docs.aws.amazon.com/ses/latest/dg/regions.html#region-receive-email

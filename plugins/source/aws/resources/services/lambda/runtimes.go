@@ -1,9 +1,9 @@
 package lambda
 
 import (
-	"github.com/cloudquery/cloudquery/plugins/source/aws/resources/services/lambda/models"
 	"github.com/cloudquery/plugin-sdk/schema"
 	"github.com/cloudquery/plugin-sdk/transformers"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/resources/services/lambda/models"
 )
 
 func Runtimes() *schema.Table {

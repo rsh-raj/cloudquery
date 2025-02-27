@@ -1,8 +1,8 @@
 package elasticsearch
 
 import (
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
 	"github.com/cloudquery/plugin-sdk/schema"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
 )
 
 func Versions() *schema.Table {

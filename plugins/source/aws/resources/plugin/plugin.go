@@ -1,8 +1,8 @@
 package plugin
 
 import (
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
 	"github.com/cloudquery/plugin-sdk/plugins/source"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
 )
 
 var (

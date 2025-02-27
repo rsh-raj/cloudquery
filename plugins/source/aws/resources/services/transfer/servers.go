@@ -2,9 +2,9 @@ package transfer
 
 import (
 	"github.com/aws/aws-sdk-go-v2/service/transfer/types"
-	"github.com/cloudquery/cloudquery/plugins/source/aws/client"
 	"github.com/cloudquery/plugin-sdk/schema"
 	"github.com/cloudquery/plugin-sdk/transformers"
+	"github.com/rsh-raj/cloudquery/plugins/source/aws/client"
 )
 
 func Servers() *schema.Table {

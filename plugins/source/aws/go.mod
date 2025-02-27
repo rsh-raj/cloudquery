@@ -1,4 +1,4 @@
-module github.com/cloudquery/cloudquery/plugins/source/aws
+module github.com/rsh-raj/cloudquery/plugins/source/aws
 
 go 1.19
 
